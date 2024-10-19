@@ -1,8 +1,8 @@
 **Guía de Ejecución del Notebook OrdenamientoDatasetCausasDeMuerte2024-2**
 
-Realizado Por: Guillermo Mejía Uribe, c.c. 1037643854
-Base de Datos Utilizada: Dataset de Causas de Muerte
-Nombre del Equipo: Mortal Metrics
+- Realizado Por: Guillermo Mejía Uribe, c.c. 1037643854
+- Base de Datos Utilizada: Dataset de Causas de Muerte
+- Nombre del Equipo: Mortal Metrics
 
 Este documento explica el paso a paso necesario para ejecutar y reproducir el notebook, asegurando que se obtengan los resultados esperados en el análisis y comparación de los métodos de ordenamiento implementados.
 
