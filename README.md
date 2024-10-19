@@ -54,6 +54,10 @@ Cargar el archivo del notebook en Colab:
 - Sube el archivo OrdenamientoDatasetCausasDeMuerte2024_2.ipynb a Google Colab.
 - Una vez cargado, abre el notebook y conecta el entorno presionando el botón "Conectar" en la esquina superior derecha.
 
+* Interactue con el notebook, las cuatro secciones van a tener sus celdas ocultas. Puede abrir o cerrar cada sección ó subsección dando click en '>'
+
+![Estructura del Notebook](/img/notebook.PNG "Estructura notebook")
+
 ## 4. Descarga del Dataset
 
 El dataset utilizado se llama "cause_of_deaths.csv" y está disponible en la plataforma Kaggle. Existen dos opciones para importar el dataset:
