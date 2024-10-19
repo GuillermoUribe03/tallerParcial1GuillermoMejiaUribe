@@ -14,15 +14,15 @@ Este proyecto implementa 15 algoritmos de ordenamiento sobre un dataset con regi
 2. [Requisitos Previos](#2-requisitos-previos)
 3. [Abrir el Notebook en Google Colab](#3-abrir-el-notebook-en-google-colab)
 4. [Descarga del Dataset](#4-descarga-del-dataset)
-5. [Exploración del Dataset](#5-exploración-del-dataset)
-6. [Implementación de Métodos de Ordenamiento](#6-implementación-de-métodos-de-ordenamiento)
-7. [Pruebas y Medición de Tiempos](#7-pruebas-y-medición-de-tiempos)
-8. [Visualización de Resultados](#8-visualización-de-resultados)
-9. [Conclusión y Recomendaciones](#9-conclusión-y-recomendaciones)
-10. [Errores Comunes y Soluciones](#10-errores-comunes-y-soluciones)
+5. [Exploración del Dataset y Selección de la Columna a Ordenar](#5-exploración-del-dataset-y-selección-de-la-columna-a-ordenar)
+6. [Implementación de los Métodos de Ordenamiento](#6-implementación-de--los-métodos-de-ordenamiento)
+7. [Pruebas y Medición de Tiempos de Ejecución](#7-pruebas-y-medición-de-tiempos-de-ejecución)
+8. [Ejecución de las Pruebas por Tamaño de Muestra](#8-ejecución-de-las-pruebas-por-tamaño-de-muestra)
+9. [Visualización Gráfica de los Resultados](#9-visualización-gráfica-de-los-resultados)
+10. [Observaciones sobre los Resultados](#10-observaciones-sobre-los-resultados)
 11. [Referencias](#11-referencias)
 
-## 1. Clonar repositorio
+## 1. Clonar El Repositorio desde Github
 
 Para comenzar con la ejecución del proyecto, primero debes clonar el repositorio en tu entorno local.
 
