@@ -24,7 +24,21 @@ Este proyecto implementa 15 algoritmos de ordenamiento sobre un dataset con regi
 
 ## 1. Clonar repositorio
 
-    Para comenzar con la ejecución del proyecto, primero debes clonar el repositorio en tu entorno local. Puedes hacerlo utilizando el siguiente comando en tu terminal:
+Para comenzar con la ejecución del proyecto, primero debes clonar el repositorio en tu entorno local.
+
+- Abra Git Bash.
+
+- Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
+
+- Escriba git clone y pegue la dirección URL que ha copiado antes. Como se ve a continuación:
+
+```bash
+git clone https://github.com/GuillermoUribe03/tallerParcial1GuillermoMejiaUribe.git
+```
+
+Esto descargará todos los archivos del proyecto, incluidos el notebook, las imágenes, y el informe PDF en tu entorno local.
+
+Una vez clonado el proyecto, navega a la carpeta descargada.
 
 ## 2. Requisitos Previos
 
@@ -37,7 +51,7 @@ Antes de ejecutar el notebook, asegúrate de tener lo siguiente:
 
 Cargar el archivo del notebook en Colab:
 
-- Sube el archivo Ordenamiento_DatasetCausasDeMuerte2024_2.ipynb a Google Colab.
+- Sube el archivo OrdenamientoDatasetCausasDeMuerte2024_2.ipynb a Google Colab.
 - Una vez cargado, abre el notebook y conecta el entorno presionando el botón "Conectar" en la esquina superior derecha.
 
 ## 4. Descarga del Dataset
@@ -48,46 +62,56 @@ El dataset utilizado se llama "cause_of_deaths.csv" y está disponible en la pla
 
   - En el notebook, ejecuta la celda correspondiente a la descarga automática desde Kaggle.
 
+  ![Seccion descargar desde Kaggle](/img/subirKaggle.PNG "Descargar desde Kaggle")
+
 - Metodo alternativo - Cargar el archivo localmente:
 
   En caso tal de que la descarga autamitica falle, sube el archivo manualmente desde la carpeta 'data' del proyecto. (Si el paso anterior, es decir la carga de Kaggle, se efectua de manera correcta, ignore esta celda de ejecución.)
 
   - En el notebook, ejecuta la celda correspondiente a la alternativa de carga manual del archivo, al ejecutarla elige y sube el archivo 'cause_of_deaths.csv' que se encuentra en la carpeta data.
 
-5. Exploración del Dataset y Selección de la Columna a Ordenar
+  ![Seccion descarga Alternativa](/img/subirAlternativa.PNG "Descarga Alternativa")
 
-   Después de cargar exitosamente los datos, encontrarás una sección de información del dataset. Ejecuta todas las celdas de esta sección para cargar librerias necesarias, inspeccionar los datos y seleccionar la columna "Alzheimer's Disease and Other Dementias" como la lista a ordenar en los diferentes métodos.
+## 5. Exploración del Dataset y Selección de la Columna a Ordenar
 
-6. Implementación de los Métodos de Ordenamiento
+Después de cargar exitosamente los datos, encontrarás una sección de información del dataset. Ejecuta todas las celdas de esta sección para cargar librerias necesarias, inspeccionar los datos y seleccionar la columna "Alzheimer's Disease and Other Dementias" como la lista a ordenar en los diferentes métodos.
 
-   - Ejecución de los 15 métodos de ordenamiento:
+![Seccion Exploracion del dataset](/img/seccionDataset.PNG "Exploracion Dataset")
 
-     - En esta sección, cada método se describe y se muestra su implementación en código.
-     - Ejecuta las celdas de cada método. Cada uno ordenará una lista con los primeros 2000 registros de la columna seleccionada y mostrará los resultados correspondientes.
+## 6. Implementación de los Métodos de Ordenamiento
 
-   - Método Exclusivo - Counting Sort:
+- Ejecución de los 15 métodos de ordenamiento:
 
-     El Counting Sort es el método exclusivo de este taller. Es el primer algoritmo presentado en la sección de implementación.
+  - En esta sección, cada método se describe y se muestra su implementación en código.
+  - Ejecuta las celdas de cada método. Cada uno ordenará una lista con los primeros 2000 registros de la columna seleccionada y mostrará los resultados correspondientes.
 
-7. Pruebas y Medición de Tiempos de Ejecución
+  ![Seccion Implementacion de los Métodos de Ordenamiento](/img/SeccionImplementar.PNG "Metodos de ordenamiento")
 
-   En esta sección encontrarás funciones auxiliares para:
+- Método Exclusivo - Counting Sort:
 
-   - Generación de listas de diferentes tamaños (2000, 3000, 4000, 5000 y 6120 registros). Cada lista se genera aleatoriamente, lo que puede generar variaciones en los tiempos de ejecución entre ejecuciones.
-   - Medición de tiempos de ejecución para los 15 métodos implementados. Cada método recibe la misma lista de prueba, pero se realizan copias internas para garantizar que la lista original nunca se modifique.
+  El Counting Sort es el método exclusivo de este taller. Es el primer algoritmo presentado en la sección de implementación.
 
-8. Ejecución de las Pruebas por Tamaño de Muestra
+## 7. Pruebas y Medición de Tiempos de Ejecución
 
-   - Ejecuta las secciones de pruebas en orden:
+En esta sección encontrarás funciones auxiliares para:
 
-     - Comienza con la prueba para 2000 registros, luego para 3000 registros, y así sucesivamente hasta llegar a la prueba con 6120 registros.
-     - Cada sección muestra los tiempos de ejecución de los 15 métodos para cada tamaño, además, muestra la grafica de barras horizontales para comparar visualmente los tiempos de ejecución, y tambien, se observa graficas de disperción de los datos.
+- Generación de listas de diferentes tamaños (2000, 3000, 4000, 5000 y 6120 registros). Cada lista se genera aleatoriamente, lo que puede generar variaciones en los tiempos de ejecución entre ejecuciones.
+- Medición de tiempos de ejecución para los 15 métodos implementados. Cada método recibe la misma lista de prueba, pero se realizan copias internas para garantizar que la lista original nunca se modifique.
 
-9. Visualización Gráfica de los Resultados
+![Seccion Pruebas y Tiempo de Ejecución](/img/SeccionPruebas.PNG "Seccion Pruebas")
 
-   Al final del notebook, encontrarás una sección de visualización gráfica global que compara los tiempos de ejecución para todos los tamaños de lista y métodos de ordenamiento.
+## 8. Ejecución de las Pruebas por Tamaño de Muestra
 
-10. Observaciones sobre los Resultados
+- Ejecuta las secciones de pruebas en orden:
+
+  - Comienza con la prueba para 2000 registros, luego para 3000 registros, y así sucesivamente hasta llegar a la prueba con 6120 registros.
+  - Cada sección muestra los tiempos de ejecución de los 15 métodos para cada tamaño, además, muestra la grafica de barras horizontales para comparar visualmente los tiempos de ejecución, y tambien, se observa graficas de disperción de los datos.
+
+## 9. Visualización Gráfica de los Resultados
+
+Al final del notebook, encontrarás una sección de visualización gráfica global que compara los tiempos de ejecución para todos los tamaños de lista y métodos de ordenamiento.
+
+## 10. Observaciones sobre los Resultados
 
     Es importante tener en cuenta:
 
@@ -95,7 +119,7 @@ El dataset utilizado se llama "cause_of_deaths.csv" y está disponible en la pla
     - Reproducir el notebook desde cero: Cada vez que se reinicie el entorno de Colab, deberás ejecutar nuevamente todas las celdas en orden para garantizar la correcta ejecución del notebook.
     - Análisis detallado: Los resultados y análisis completos se encuentran en un informe PDF adjunto.
 
-11. Referencias
+## 11. Referencias
 
     - Dataset original: Kaggle - Cause of Deaths
       (https://www.kaggle.com/datasets/iamsouravbanerjee/cause-of-deaths-around-the-world DATA)
